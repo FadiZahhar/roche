@@ -24,9 +24,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Roche | الهيموفيليا</title>
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- endbuild -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+
+    <!--build:js js/scripts.min.js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="200">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +53,55 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
+     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script>
+        $(document).ready(function () {
+            $("#navbarSupportedContent ul li a[href^='#']").on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $(this.hash).offset().top - 100
+                }, 100);
+            });
+            $(".more a[href^='#']").on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $(this.hash).offset().top - 120
+                }, 100);
+            });
+            $(".redirection ul li a[href^='#']").on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $(this.hash).offset().top - 100
+                }, 100);
+            });
+
+
+
+
+
+            var swiper = new Swiper('.swiper-container', {
+                loop: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+
+                },
+                navigation: {
+                    nextEl: '.swiper-button-prev',
+                    prevEl: '.swiper-button-next',
+                },
+            });
+
+
+            $('.nav-section li a').click(function (e) {
+
+                $('.nav-section li a.active').removeClass('active');
+                $(this).addClass('active');
+                // e.preventDefault();
+            });
+
+        });
+    </script>
   </body>
 </html>
