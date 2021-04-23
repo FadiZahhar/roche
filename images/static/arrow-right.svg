@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0,0-Roche-Landing---Web" transform="translate(-1014.000000, -617.000000)" fill="#84B9DB" fill-rule="nonzero">
+            <g id="Banner" transform="translate(0.000000, 111.000000)">
+                <g id="Who-we-are" transform="translate(952.000000, 96.000000)">
+                    <g id="Group" transform="translate(0.000000, 402.000000)">
+                        <g id="130-next" transform="translate(62.000000, 8.000000)">
+                            <path d="M7.81125,6.5135625 L1.50584375,0.20790625 C1.25446875,-0.04325 0.84740625,-0.04325 0.59603125,0.20790625 C0.34465625,0.45928125 0.34465625,0.86678125 0.59603125,1.1179375 L6.44653125,6.96865625 L0.59603125,12.8194062 C0.34465625,13.0705625 0.34465625,13.4780625 0.59603125,13.7292187 C0.72171875,13.8549062 0.88621875,13.91775 1.0509375,13.91775 C1.21565625,13.91775 1.38015625,13.8549062 1.50584375,13.7292187 L7.81125,7.42359375 C8.062625,7.17221875 8.062625,6.7646875 7.81125,6.5135625 L7.81125,6.5135625 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

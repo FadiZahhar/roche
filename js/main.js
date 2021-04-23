@@ -1,0 +1,1 @@
+jQuery(function(t){t(function(){t(".dropdown a").click(function(){t(".selection").text(t(this).text())})})});
